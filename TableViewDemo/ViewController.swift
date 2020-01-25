@@ -15,6 +15,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    
+    
+    @IBAction func GoToTableViewController(_ sender: Any) {
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "TableViewController") as! UITableViewController
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
 
 }
 

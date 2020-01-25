@@ -12,6 +12,7 @@
 		0592C46423DC881400931B3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0592C46223DC881400931B3D /* Main.storyboard */; };
 		0592C46623DC881600931B3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0592C46523DC881600931B3D /* Assets.xcassets */; };
 		0592C46923DC881600931B3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0592C46723DC881600931B3D /* LaunchScreen.storyboard */; };
+		0592C47323DC965800931B3D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0592C47223DC965800931B3D /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0592C46523DC881600931B3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0592C46823DC881600931B3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0592C46A23DC881600931B3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0592C47223DC965800931B3D /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				0592C45E23DC881400931B3D /* AppDelegate.swift */,
 				0592C46023DC881400931B3D /* ViewController.swift */,
+				0592C47223DC965800931B3D /* TableViewController.swift */,
 				0592C46223DC881400931B3D /* Main.storyboard */,
 				0592C46523DC881600931B3D /* Assets.xcassets */,
 				0592C46723DC881600931B3D /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0592C46123DC881400931B3D /* ViewController.swift in Sources */,
+				0592C47323DC965800931B3D /* TableViewController.swift in Sources */,
 				0592C45F23DC881400931B3D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
